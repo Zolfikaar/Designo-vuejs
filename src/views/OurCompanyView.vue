@@ -12,19 +12,19 @@ export default {
   data() {
     return {
       aboutImg:{
-        desktop: '../../assets/about/desktop/image-about-hero.jpg',
-        tablet: '../../assets/about/tablet/image-about-hero.jpg',
-        mobile: '../../assets/about/mobile/image-about-hero.jpg'
+        desktop: 'assets/about/desktop/image-about-hero.jpg',
+        tablet: 'assets/about/tablet/image-about-hero.jpg',
+        mobile: 'assets/about/mobile/image-about-hero.jpg'
       },
       worldClassImg:{
-        desktop: '../../assets/about/desktop/image-world-class-talent.jpg',
-        tablet: '../../assets/about/tablet/image-world-class-talent.jpg',
-        mobile: '../../assets/about/mobile/image-world-class-talent.jpg'
+        desktop: 'assets/about/desktop/image-world-class-talent.jpg',
+        tablet: 'assets/about/tablet/image-world-class-talent.jpg',
+        mobile: 'assets/about/mobile/image-world-class-talent.jpg'
       },
       realDealImg:{
-        desktop: '../../assets/about/desktop/image-real-deal.jpg',
-        tablet: '../../assets/about/tablet/image-real-deal.jpg',
-        mobile: '../../assets/about/mobile/image-real-deal.jpg'
+        desktop: 'assets/about/desktop/image-real-deal.jpg',
+        tablet: 'assets/about/tablet/image-real-deal.jpg',
+        mobile: 'assets/about/mobile/image-real-deal.jpg'
       },
       screenSize: '',
     }

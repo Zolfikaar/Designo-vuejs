@@ -17,22 +17,22 @@ export default {
     return {
       categoryInfo: {
         categoryTitle: 'Graphic Design',
-        categoryBgPattern: '../../assets/graphic-design/desktop/bg-pattern-intro-graphic.svg',
+        categoryBgPattern: 'assets/graphic-design/desktop/bg-pattern-intro-graphic.svg',
         categoryDescription: 'We deliver eye-catching branding materials that are tailored to meet your business objectives.',
       },
       categoryProjects: {
         project1: {
-          projectImage: '../../assets/graphic-design/desktop/image-change.jpg',
+          projectImage: 'assets/graphic-design/desktop/image-change.jpg',
           projectTitle: 'Tim Brown',
           projectDescription: 'A book cover designed for Tim Brown’s new release, ‘Change’'
         },
         project2: {
-          projectImage: '../../assets/graphic-design/desktop/image-boxed-water.jpg',
+          projectImage: 'assets/graphic-design/desktop/image-boxed-water.jpg',
           projectTitle: 'Boxed water',
           projectDescription: 'A simple packaging concept made for Boxed Water'
         },
         project3: {
-          projectImage: '../../assets/graphic-design/desktop/image-science.jpg',
+          projectImage: 'assets/graphic-design/desktop/image-science.jpg',
           projectTitle: 'Science!',
           projectDescription: 'A poster made in collaboration with the Federal Art Project'
         }

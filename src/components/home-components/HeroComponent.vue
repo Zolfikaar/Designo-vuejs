@@ -6,7 +6,7 @@
         <button class="btn btn-dark">Learn More</button>
       </div>
       <div class="right-side">
-        <img src="../../assets/home/desktop/image-hero-phone.png" alt="">
+        <img src="assets/home/desktop/image-hero-phone.png" alt="">
       </div>
     </div>
 </template>
@@ -22,7 +22,7 @@
   border-radius: var(--bor-rad);
   overflow: hidden;
   margin-bottom: 150px;
-  background-image: url('../../assets/home/desktop/bg-pattern-hero-home.svg');
+  background-image: url('assets/home/desktop/bg-pattern-hero-home.svg');
   background-repeat: no-repeat;
   background-position-x: right;
 }

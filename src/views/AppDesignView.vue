@@ -17,32 +17,32 @@ export default {
     return {
       categoryInfo: {
         categoryTitle: 'App Design',
-        categoryBgPattern: 'src/assets/app-design/desktop/bg-pattern-intro-app.svg',
+        categoryBgPattern: '../../assets/app-design/desktop/bg-pattern-intro-app.svg',
         categoryDescription: 'Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.',
       },
       categoryProjects: {
         project1: {
-          projectImage: 'src/assets/app-design/desktop/image-airfilter.jpg',
+          projectImage: '../../assets/app-design/desktop/image-airfilter.jpg',
           projectTitle: 'Airfilter',
           projectDescription: 'Solving the problem of poor indoor air quality by filtering the air'
         },
         project2: {
-          projectImage: 'src/assets/app-design/desktop/image-eyecam.jpg',
+          projectImage: '../../assets/app-design/desktop/image-eyecam.jpg',
           projectTitle: 'Eyecam',
           projectDescription: 'Product that lets you edit your favorite photos and videos at any time'
         },
         project3: {
-          projectImage: 'src/assets/app-design/desktop/image-faceit.jpg',
+          projectImage: '../../assets/app-design/desktop/image-faceit.jpg',
           projectTitle: 'Faceit',
           projectDescription: 'Get to meet your favorite internet superstar with the faceit app'
         },
         project4: {
-          projectImage: 'src/assets/app-design/desktop/image-todo.jpg',
+          projectImage: '../../assets/app-design/desktop/image-todo.jpg',
           projectTitle: 'Todo',
           projectDescription: 'A todo app that features cloud sync with light and dark mode'
         },
         project5: {
-          projectImage: 'src/assets/app-design/desktop/image-loopstudios.jpg',
+          projectImage: '../../assets/app-design/desktop/image-loopstudios.jpg',
           projectTitle: 'Loopstudios',
           projectDescription: 'A VR experience app made for Loopstudios'
         }

@@ -17,37 +17,37 @@ export default {
     return {
       categoryInfo: {
         categoryTitle: 'Web Design',
-        categoryBgPattern: 'src/assets/web-design/desktop/bg-pattern-intro-web.svg',
+        categoryBgPattern: '../../assets/web-design/desktop/bg-pattern-intro-web.svg',
         categoryDescription: 'We build websites that serve as powerful marketing tools and bring memorable brand experiences.',
       },
       categoryProjects: {
         project1: {
-          projectImage: 'src/assets/web-design/desktop/image-express.jpg',
+          projectImage: '../../assets/web-design/desktop/image-express.jpg',
           projectTitle: 'Express',
           projectDescription: 'A multi-carrier shipping website for ecommerce businesses'
         },
         project2: {
-          projectImage: 'src/assets/web-design/desktop/image-transfer.jpg',
+          projectImage: '../../assets/web-design/desktop/image-transfer.jpg',
           projectTitle: 'Transfer',
           projectDescription: 'Site for low-cost money transfers and sending money within seconds'
         },
         project3: {
-          projectImage: 'src/assets/web-design/desktop/image-photon.jpg',
+          projectImage: '../../assets/web-design/desktop/image-photon.jpg',
           projectTitle: 'Photon',
           projectDescription: 'A state-of-the-art music player with high-resolution audio and DSP effects'
         },
         project4: {
-          projectImage: 'src/assets/web-design/desktop/image-builder.jpg',
+          projectImage: '../../assets/web-design/desktop/image-builder.jpg',
           projectTitle: 'Builder',
           projectDescription: 'Connects users with local contractors based on their location'
         },
         project5: {
-          projectImage: 'src/assets/web-design/desktop/image-blogr.jpg',
+          projectImage: '../../assets/web-design/desktop/image-blogr.jpg',
           projectTitle: 'Bloger',
           projectDescription: 'Blogr is a platform for creating an online blog or publication'
         },
         project6: {
-          projectImage: 'src/assets/web-design/desktop/image-camp.jpg',
+          projectImage: '../../assets/web-design/desktop/image-camp.jpg',
           projectTitle: 'Camp',
           projectDescription: 'Get expert training in coding, data, design, and digital marketing'
         },

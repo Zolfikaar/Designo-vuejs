@@ -16,8 +16,8 @@ export default {
           phone: '+1 253-863-8967',
           email: 'contact@designo.co',
           map: {
-            desktop: 'src/assets/locations/desktop/image-map-canada.png',
-            tablet: 'src/assets/locations/tablet/image-map-canada.png'
+            desktop: '../../assets/locations/desktop/image-map-canada.png',
+            tablet: '../../assets/locations/tablet/image-map-canada.png'
           }
         },
         address2: {
@@ -31,8 +31,8 @@ export default {
           phone: '(02) 6720 9092',
           email: 'contact@designo.au',
           map: {
-            desktop: 'src/assets/locations/desktop/image-map-australia.png',
-            tablet: 'src/assets/locations/tablet/image-map-australia.png'
+            desktop: '../../assets/locations/desktop/image-map-australia.png',
+            tablet: '../../assets/locations/tablet/image-map-australia.png'
           }
         },
         address3: {
@@ -46,8 +46,8 @@ export default {
           phone: '078 3115 1400',
           email: 'contact@designo.uk',
           map: {
-            desktop: 'src/assets/locations/desktop/image-map-united-kingdom.png',
-            tablet: 'src/assets/locations/tablet/image-map-united-kingdom.png'
+            desktop: '../../assets/locations/desktop/image-map-united-kingdom.png',
+            tablet: '../../assets/locations/tablet/image-map-united-kingdom.png'
           }
         },
         screenSize: '',

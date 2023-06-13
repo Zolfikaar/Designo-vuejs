@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://zolfikaar.github.io/designo-Vuejs-multi-page-website/](https://zolfikaar.github.io/designo-Vuejs-multi-page-website/)
+- Solution URL: [https://www.frontendmentor.io/solutions/designo-vuejs-multipage-website-bIP0gxp8bh](https://www.frontendmentor.io/solutions/designo-vuejs-multipage-website-bIP0gxp8bh)
+- Live Site URL: [https://zolfikaar.github.io/Designo-vuejs/](https://zolfikaar.github.io/Designo-vuejs/)
 
 ## My process
 

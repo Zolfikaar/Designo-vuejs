@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --clr-white: #ffffff;
+  --clr-gray-light: #f1f3f5;
+  --clr-black: #1d1c1e;
+  --clr-dark-gray: #333136;
+  --clr-primary: #e78168;
+  --clr-primary-rgb: 231, 129, 104;
+  --clr-primary-light: #ffad98;
+  --bor-rad: 8px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Jost', sans-serif;
+}
+body {
+  min-height: 100vh;
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  position: relative;
+}
+.container,
+.nav-container{
+  width: 80%;
+  margin: 0 auto;
+}
+h1{
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+}
+h2{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+}
+.btn{
+  width: 152px;
+  height: 56px;
+  line-height: 28px;
+  border-radius: var(--bor-rad);
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1;
+  font-weight: 500;
+}
+.btn.btn-dark{
+  background-color: var(--clr-white);
+  color: var(--clr-dark-gray);
+}
+.btn.btn-dark:hover{
+  color: var(--clr-white);
+}
+.btn.btn-light{
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+.btn.btn-dark:hover,
+.btn.btn-light:hover{
+  background-color: var(--clr-primary-light);
+  cursor: pointer;
+}
+.logo img{
+  width: 196px;
+  height: 24px;
+}
+ul{
+  margin-bottom: unset;
+}
+ul li{
+  list-style: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+
+/* Mobile Screen */
+@media screen and (min-width: 375px) and (max-width: 768px){
+  .container{
+    width: 100%;
+  }
+  .nav-container{
+    width: 90%;
+  }
+  
+  body {
+    font-size: 15px;
+    line-height: 25px;
+    position: relative;
+  }
+  h1{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 1.4px;
+  }
+
+}
+
+/* Tablet Screen */
+@media screen and (min-width: 769px) and (max-width: 1440px){
+  /* .container{
+    width: 95%;
+  }
+  .nav-container{
+    width: 95%;
+  } */
+}

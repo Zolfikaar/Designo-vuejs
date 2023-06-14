@@ -114,7 +114,7 @@ export default {
   align-items: center;
   height: 480px;
   background-color: var(--clr-primary);
-  background-image: url('../assets/contact/desktop/bg-pattern-hero-desktop.svg');
+  background-image: url('/assets/contact/desktop/bg-pattern-hero-desktop.svg');
   background-position-y: bottom;
   background-repeat: no-repeat;
   border-radius: var(--bor-rad);

@@ -44,7 +44,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 50px 70px;
-  background-image: url('../../assets/shared/desktop/bg-pattern-two-circles.svg');
+  background-image: url('/assets/shared/desktop/bg-pattern-two-circles.svg');
   background-position-y: center;
   background-repeat: no-repeat;
 }

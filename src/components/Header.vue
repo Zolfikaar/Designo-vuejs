@@ -36,7 +36,7 @@ export default {
   <div class="nav-container">
     <nav class="navbar">
     
-      <RouterLink class="logo" to="/"><img src="../assets/shared/desktop/logo-dark.png" alt="Home Page"></RouterLink>
+      <RouterLink class="logo" to="/"><img src="/assets/shared/desktop/logo-dark.png" alt="Home Page"></RouterLink>
 
       <div class="phone-menu-toggler">
         <button class="navbar-toggler" @click="toggleIcon">

@@ -12,19 +12,19 @@ export default {
   data() {
     return {
       aboutImg:{
-        desktop: '../assets/about/desktop/image-about-hero.jpg',
-        tablet: '../assets/about/tablet/image-about-hero.jpg',
-        mobile: '../assets/about/mobile/image-about-hero.jpg'
+        desktop: '/assets/about/desktop/image-about-hero.jpg',
+        tablet: '/assets/about/tablet/image-about-hero.jpg',
+        mobile: '/assets/about/mobile/image-about-hero.jpg'
       },
       worldClassImg:{
-        desktop: '../assets/about/desktop/image-world-class-talent.jpg',
-        tablet: '../assets/about/tablet/image-world-class-talent.jpg',
-        mobile: '../assets/about/mobile/image-world-class-talent.jpg'
+        desktop: '/assets/about/desktop/image-world-class-talent.jpg',
+        tablet: '/assets/about/tablet/image-world-class-talent.jpg',
+        mobile: '/assets/about/mobile/image-world-class-talent.jpg'
       },
       realDealImg:{
-        desktop: '../assets/about/desktop/image-real-deal.jpg',
-        tablet: '../assets/about/tablet/image-real-deal.jpg',
-        mobile: '../assets/about/mobile/image-real-deal.jpg'
+        desktop: '/assets/about/desktop/image-real-deal.jpg',
+        tablet: '/assets/about/tablet/image-real-deal.jpg',
+        mobile: '/assets/about/mobile/image-real-deal.jpg'
       },
       screenSize: '',
     }
@@ -144,7 +144,7 @@ export default {
 .about-box{
   height: 480px;
   background-color: var(--clr-primary);
-  background-image: url('../assets/about/desktop/bg-pattern-hero-about-desktop.svg');
+  background-image: url('/assets/about/desktop/bg-pattern-hero-about-desktop.svg');
 }
 .about-box .left-side p,
 .world-class-box .left-side p,
@@ -164,7 +164,7 @@ export default {
   flex-direction: row-reverse;
   background: rgb(253,243,240);
   background: linear-gradient(90deg, rgba(253,243,240,1) 35%);
-  background-image: url('../assets/shared/desktop/bg-pattern-two-circles.svg');
+  background-image: url('/assets/shared/desktop/bg-pattern-two-circles.svg');
   background-position-y: bottom;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -199,7 +199,7 @@ export default {
     margin: 170px 0 0 0;
   }
   .about-box{
-    background-image: url('../assets/about/mobile/bg-pattern-hero-about-mobile.svg');
+    background-image: url('/assets/about/mobile/bg-pattern-hero-about-mobile.svg');
     background-position-y: top;
     background-position-x: right;
   }

@@ -19,7 +19,7 @@
   width: 1111px;
   height: 292px;
   background-color: var(--clr-primary);
-  background-image: url('../../assets/shared/desktop/bg-pattern-call-to-action.svg');
+  background-image: url('/assets/shared/desktop/bg-pattern-call-to-action.svg');
   background-position-x: right;
   background-position-y: center;
   color: white;

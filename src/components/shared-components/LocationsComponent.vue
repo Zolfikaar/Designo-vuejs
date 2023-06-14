@@ -47,7 +47,7 @@ export default{
 }
 .card .image-box{
   border-radius: 50%;
-  background-image: url('../../assets/shared/desktop/bg-pattern-small-circle.svg');
+  background-image: url('/assets/shared/desktop/bg-pattern-small-circle.svg');
   background-repeat: no-repeat;
   background-position: center center;
 }

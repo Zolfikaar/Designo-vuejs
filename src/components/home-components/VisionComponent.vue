@@ -3,7 +3,7 @@
     <div class="passionate">
       <div>
         <div class="image-box">
-          <img src="/assets/home/desktop/illustration-passionate.svg" alt="illustration passionate">
+          <img src="@/assets/home/desktop/illustration-passionate.svg" alt="illustration passionate">
         </div>
       </div>
       <div>
@@ -15,7 +15,7 @@
     <div class="resourceful">
       <div>
         <div class="image-box">
-          <img src="/assets/home/desktop/illustration-resourceful.svg" alt="illustration resourceful">
+          <img src="@/assets/home/desktop/illustration-resourceful.svg" alt="illustration resourceful">
         </div>
       </div>
       <div>
@@ -26,7 +26,7 @@
     <div class="friendly">
       <div>
         <div class="image-box">
-          <img src="/assets/home/desktop/illustration-friendly.svg" alt="illustration friendly">
+          <img src="@/assets/home/desktop/illustration-friendly.svg" alt="illustration friendly">
         </div>
       </div>
       <div>
@@ -59,7 +59,7 @@
 .passionate .image-box,
 .resourceful .image-box,
 .friendly .image-box{
-  background-image: url('/assets/shared/desktop/bg-pattern-small-circle.svg');
+  background-image: url('@/assets/shared/desktop/bg-pattern-small-circle.svg');
   background-repeat: no-repeat;
 }
 .passionate .image-box{

@@ -1,7 +1,15 @@
 <script>
 import ContactBoxComponent from '@/components/shared-components/ContactBoxComponent.vue'
-import mapComponent from '@/components/location-components/mapComponent.vue';
-import infoComponent from '@/components/location-components/infoComponent.vue';
+import mapComponent from '@/components/location-components/mapComponent.vue'
+import infoComponent from '@/components/location-components/infoComponent.vue'
+
+import address1desktop from '@/assets/locations/desktop/image-map-canada.png'
+import address1tablet from '@/assets/locations/tablet/image-map-canada.png'
+import address2desktop from '@/assets/locations/desktop/image-map-australia.png'
+import address2tablet from '@/assets/locations/tablet/image-map-australia.png'
+import address3desktop from '@/assets/locations/desktop/image-map-uk.png'
+import address3tablet from '@/assets/locations/tablet/image-map-uk.png'
+
 export default {
   data() {
     return {
@@ -16,8 +24,8 @@ export default {
           phone: '+1 253-863-8967',
           email: 'contact@designo.co',
           map: {
-            desktop: '/assets/locations/desktop/image-map-canada.png',
-            tablet: '/assets/locations/tablet/image-map-canada.png'
+            desktop: address1desktop,
+            tablet: address1tablet
           }
         },
         address2: {
@@ -31,8 +39,8 @@ export default {
           phone: '(02) 6720 9092',
           email: 'contact@designo.au',
           map: {
-            desktop: '/assets/locations/desktop/image-map-australia.png',
-            tablet: '/assets/locations/tablet/image-map-australia.png'
+            desktop: address2desktop,
+            tablet: address2tablet
           }
         },
         address3: {
@@ -46,8 +54,8 @@ export default {
           phone: '078 3115 1400',
           email: 'contact@designo.uk',
           map: {
-            desktop: '/assets/locations/desktop/image-map-united-kingdom.png',
-            tablet: '/assets/locations/tablet/image-map-united-kingdom.png'
+            desktop: address3desktop,
+            tablet: address3tablet
           }
         },
         screenSize: '',

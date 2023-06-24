@@ -5,6 +5,11 @@ import CategoryInfoCardComponent from '@/components/shared-components/CategoryIn
 import ProjectsComponent from '@/components/shared-components/ProjectsComponent.vue';
 import patternLeaf from '@/components/icons/pattern-leaf.vue';
 
+import categoryBgPattern from '@/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg'
+import project1Image from '@/assets/graphic-design/desktop/image-change.jpg'
+import project2Image from '@/assets/graphic-design/desktop/image-boxed-water.jpg'
+import project3Image from '@/assets/graphic-design/desktop/image-science.jpg'
+
 export default {
   components: {
     CategoriesCardComponent,
@@ -17,22 +22,22 @@ export default {
     return {
       categoryInfo: {
         categoryTitle: 'Graphic Design',
-        categoryBgPattern: '/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg',
+        categoryBgPattern,
         categoryDescription: 'We deliver eye-catching branding materials that are tailored to meet your business objectives.',
       },
       categoryProjects: {
         project1: {
-          projectImage: '/assets/graphic-design/desktop/image-change.jpg',
+          projectImage: project1Image,
           projectTitle: 'Tim Brown',
           projectDescription: 'A book cover designed for Tim Brown’s new release, ‘Change’'
         },
         project2: {
-          projectImage: '/assets/graphic-design/desktop/image-boxed-water.jpg',
+          projectImage: project2Image,
           projectTitle: 'Boxed water',
           projectDescription: 'A simple packaging concept made for Boxed Water'
         },
         project3: {
-          projectImage: '/assets/graphic-design/desktop/image-science.jpg',
+          projectImage: project3Image,
           projectTitle: 'Science!',
           projectDescription: 'A poster made in collaboration with the Federal Art Project'
         }

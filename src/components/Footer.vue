@@ -4,7 +4,7 @@
 
       <div class="top-links navbar">
         <div class="logo">
-          <RouterLink to="/"><img src="/assets/shared/desktop/logo-light.png" alt=""></RouterLink>
+          <RouterLink to="/"><img src="@/assets/shared/desktop/logo-light.png" alt=""></RouterLink>
         </div>
 
         <div class="separator"></div>

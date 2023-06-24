@@ -95,8 +95,6 @@ ul li a{
   letter-spacing: 2px;
 }
 
-
-/* Mobile Screen */
 @media screen and (min-width: 375px) and (max-width: 768px){
   .container{
     width: 100%;
@@ -104,7 +102,6 @@ ul li a{
   .nav-container{
     width: 90%;
   }
-  
   body {
     font-size: 15px;
     line-height: 25px;
@@ -121,15 +118,4 @@ ul li a{
     line-height: 36px;
     letter-spacing: 1.4px;
   }
-
-}
-
-/* Tablet Screen */
-@media screen and (min-width: 769px) and (max-width: 1440px){
-  /* .container{
-    width: 95%;
-  }
-  .nav-container{
-    width: 95%;
-  } */
 }

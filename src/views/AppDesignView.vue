@@ -5,6 +5,13 @@ import CategoryInfoCardComponent from '@/components/shared-components/CategoryIn
 import ProjectsComponent from '@/components/shared-components/ProjectsComponent.vue';
 import patternLeaf from '@/components/icons/pattern-leaf.vue';
 
+import categoryBgPattern from '@/assets/app-design/desktop/bg-pattern-intro-app.svg'
+import project1Image from '@/assets/app-design/desktop/image-airfilter.jpg'
+import project2Image from '@/assets/app-design/desktop/image-eyecam.jpg'
+import project3Image from '@/assets/app-design/desktop/image-faceit.jpg'
+import project4Image from '@/assets/app-design/desktop/image-todo.jpg'
+import project5Image from '@/assets/app-design/desktop/image-loopstudios.jpg'
+
 export default {
   components: {
     CategoriesCardComponent,
@@ -17,32 +24,32 @@ export default {
     return {
       categoryInfo: {
         categoryTitle: 'App Design',
-        categoryBgPattern: '/assets/app-design/desktop/bg-pattern-intro-app.svg',
+        categoryBgPattern,
         categoryDescription: 'Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.',
       },
       categoryProjects: {
         project1: {
-          projectImage: '/assets/app-design/desktop/image-airfilter.jpg',
+          projectImage: project1Image,
           projectTitle: 'Airfilter',
           projectDescription: 'Solving the problem of poor indoor air quality by filtering the air'
         },
         project2: {
-          projectImage: '/assets/app-design/desktop/image-eyecam.jpg',
+          projectImage: project2Image,
           projectTitle: 'Eyecam',
           projectDescription: 'Product that lets you edit your favorite photos and videos at any time'
         },
         project3: {
-          projectImage: '/assets/app-design/desktop/image-faceit.jpg',
+          projectImage: project3Image,
           projectTitle: 'Faceit',
           projectDescription: 'Get to meet your favorite internet superstar with the faceit app'
         },
         project4: {
-          projectImage: '/assets/app-design/desktop/image-todo.jpg',
+          projectImage: project4Image,
           projectTitle: 'Todo',
           projectDescription: 'A todo app that features cloud sync with light and dark mode'
         },
         project5: {
-          projectImage: '/assets/app-design/desktop/image-loopstudios.jpg',
+          projectImage: project5Image,
           projectTitle: 'Loopstudios',
           projectDescription: 'A VR experience app made for Loopstudios'
         }

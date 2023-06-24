@@ -5,6 +5,14 @@ import CategoryInfoCardComponent from '@/components/shared-components/CategoryIn
 import ProjectsComponent from '@/components/shared-components/ProjectsComponent.vue';
 import patternLeaf from '@/components/icons/pattern-leaf.vue';
 
+import categoryBgPattern from '@/assets/web-design/desktop/bg-pattern-intro-web.svg'
+import project1Image from '@/assets/web-design/desktop/image-express.jpg'
+import project2Image from '@/assets/web-design/desktop/image-transfer.jpg'
+import project3Image from '@/assets/web-design/desktop/image-photon.jpg'
+import project4Image from '@/assets/web-design/desktop/image-builder.jpg'
+import project5Image from '@/assets/web-design/desktop/image-blogr.jpg'
+import project6Image from '@/assets/web-design/desktop/image-camp.jpg'
+
 export default {
   components: {
     CategoriesCardComponent,
@@ -17,37 +25,37 @@ export default {
     return {
       categoryInfo: {
         categoryTitle: 'Web Design',
-        categoryBgPattern: '../assets/web-design/desktop/bg-pattern-intro-web.svg',
+        categoryBgPattern,
         categoryDescription: 'We build websites that serve as powerful marketing tools and bring memorable brand experiences.',
       },
       categoryProjects: {
         project1: {
-          projectImage: '/assets/web-design/desktop/image-express.jpg',
+          projectImage: project1Image,
           projectTitle: 'Express',
           projectDescription: 'A multi-carrier shipping website for ecommerce businesses'
         },
         project2: {
-          projectImage: '/assets/web-design/desktop/image-transfer.jpg',
+          projectImage: project2Image,
           projectTitle: 'Transfer',
           projectDescription: 'Site for low-cost money transfers and sending money within seconds'
         },
         project3: {
-          projectImage: '/assets/web-design/desktop/image-photon.jpg',
+          projectImage: project3Image,
           projectTitle: 'Photon',
           projectDescription: 'A state-of-the-art music player with high-resolution audio and DSP effects'
         },
         project4: {
-          projectImage: '/assets/web-design/desktop/image-builder.jpg',
+          projectImage: project4Image,
           projectTitle: 'Builder',
           projectDescription: 'Connects users with local contractors based on their location'
         },
         project5: {
-          projectImage: '/assets/web-design/desktop/image-blogr.jpg',
+          projectImage: project5Image,
           projectTitle: 'Bloger',
           projectDescription: 'Blogr is a platform for creating an online blog or publication'
         },
         project6: {
-          projectImage: '/assets/web-design/desktop/image-camp.jpg',
+          projectImage: project6Image,
           projectTitle: 'Camp',
           projectDescription: 'Get expert training in coding, data, design, and digital marketing'
         },

@@ -45,14 +45,14 @@
 .app-design { grid-area: 1 / 2 / 2 / 3; }
 .graphic-design { grid-area: 2 / 2 / 3 / 3; }
 .web-design{
-  background-image: url('/assets/home/desktop/image-web-design-large.jpg');
+  background-image: url('@/assets/home/desktop/image-web-design-large.jpg');
   height: 640px;
 }
 .app-design{
-  background-image: url('/assets/home/desktop/image-app-design.jpg');
+  background-image: url('@/assets/home/desktop/image-app-design.jpg');
 }
 .graphic-design{
-  background-image: url('/assets/home/desktop/image-graphic-design.jpg');
+  background-image: url('@/assets/home/desktop/image-graphic-design.jpg');
 }
 .app-design,
 .graphic-design{

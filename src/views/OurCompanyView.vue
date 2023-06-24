@@ -1,7 +1,17 @@
 <script>
 import LocationsComponent from '@/components/shared-components/LocationsComponent.vue'
-import ContactBoxComponent from '@/components/shared-components/ContactBoxComponent.vue';
-import patternLeaf from '@/components/icons/pattern-leaf.vue';
+import ContactBoxComponent from '@/components/shared-components/ContactBoxComponent.vue'
+import patternLeaf from '@/components/icons/pattern-leaf.vue'
+
+import aboutImgDesktop from '@/assets/about/desktop/image-about-hero.jpg'
+import aboutImgTablet from '@/assets/about/tablet/image-about-hero.jpg'
+import aboutImgMobile from '@/assets/about/mobile/image-about-hero.jpg'
+import worldClassImgDesktop from '@/assets/about/desktop/image-world-class-talent.jpg'
+import worldClassImgTablet from '@/assets/about/tablet/image-world-class-talent.jpg'
+import worldClassImgMobile from '@/assets/about/mobile/image-world-class-talent.jpg'
+import realDealImgDesktop from '@/assets/about/desktop/image-real-deal.jpg'
+import realDealImgTablet from '@/assets/about/tablet/image-real-deal.jpg'
+import realDealImgMobile from '@/assets/about/mobile/image-real-deal.jpg'
 
 export default {
   components: {
@@ -12,19 +22,19 @@ export default {
   data() {
     return {
       aboutImg:{
-        desktop: '/assets/about/desktop/image-about-hero.jpg',
-        tablet: '/assets/about/tablet/image-about-hero.jpg',
-        mobile: '/assets/about/mobile/image-about-hero.jpg'
+        desktop: aboutImgDesktop,
+        tablet: aboutImgTablet,
+        mobile: aboutImgMobile,
       },
       worldClassImg:{
-        desktop: '/assets/about/desktop/image-world-class-talent.jpg',
-        tablet: '/assets/about/tablet/image-world-class-talent.jpg',
-        mobile: '/assets/about/mobile/image-world-class-talent.jpg'
+        desktop: worldClassImgDesktop,
+        tablet: worldClassImgTablet,
+        mobile: worldClassImgMobile,
       },
       realDealImg:{
-        desktop: '/assets/about/desktop/image-real-deal.jpg',
-        tablet: '/assets/about/tablet/image-real-deal.jpg',
-        mobile: '/assets/about/mobile/image-real-deal.jpg'
+        desktop: realDealImgDesktop,
+        tablet: realDealImgTablet,
+        mobile: realDealImgMobile,
       },
       screenSize: '',
     }
@@ -144,7 +154,7 @@ export default {
 .about-box{
   height: 480px;
   background-color: var(--clr-primary);
-  background-image: url('/assets/about/desktop/bg-pattern-hero-about-desktop.svg');
+  background-image: url('@/assets/about/desktop/bg-pattern-hero-about-desktop.svg');
 }
 .about-box .left-side p,
 .world-class-box .left-side p,
@@ -164,7 +174,7 @@ export default {
   flex-direction: row-reverse;
   background: rgb(253,243,240);
   background: linear-gradient(90deg, rgba(253,243,240,1) 35%);
-  background-image: url('/assets/shared/desktop/bg-pattern-two-circles.svg');
+  background-image: url('@/assets/shared/desktop/bg-pattern-two-circles.svg');
   background-position-y: bottom;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -199,7 +209,7 @@ export default {
     margin: 170px 0 0 0;
   }
   .about-box{
-    background-image: url('/assets/about/mobile/bg-pattern-hero-about-mobile.svg');
+    background-image: url('@/assets/about/mobile/bg-pattern-hero-about-mobile.svg');
     background-position-y: top;
     background-position-x: right;
   }

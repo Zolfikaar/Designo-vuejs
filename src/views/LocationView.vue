@@ -122,7 +122,7 @@ export default {
               <infoComponent :address="address3" />
             </div>
             <div class="map-box">
-              <mapComponent :map="currentAddress2Map" />
+              <mapComponent :map="currentAddress3Map" />
             </div>
           </div>
     </div>

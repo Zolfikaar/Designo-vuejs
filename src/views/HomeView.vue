@@ -1,6 +1,6 @@
 <script>
 import HeroComponent from '@/components/home-components/HeroComponent.vue'
-import CategoriesCardComponent from '@/components/shared-components/CategoriesCardComponent.Vue';
+import CategoriesCardComponent from '@/components/shared-components/CategoriesCardComponent.vue';
 import VisionComponent from '@/components/home-components/VisionComponent.vue';
 import ContactBoxComponent from '@/components/shared-components/ContactBoxComponent.vue';
 import patternLeaf from '@/components/icons/pattern-leaf.vue';
